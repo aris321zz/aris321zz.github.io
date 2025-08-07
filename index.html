@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>muhammad-aris-mawardi</title>
+
+		<!-- Conection -->
+
+		<!-- Taildwind CSS -->
+		<link rel="stylesheet" href="public/css/style.css" />
+
+		<!-- Ripple UI -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/rippleui@1.12.1/public/css/styles.css"
+		/>
+
+		<!-- Swiper CSS -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+		/>
+
+		<!-- Google Font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+
+	<body>
+		<div class="container shadow-2xl p-0 max-w-screen-2xl">
+			<!-- Navbar -->
+			<div class="navbar navbar-sticky navbar-glass">
+				<div class="navbar-start">
+					<a class="navbar-item">arsmwrd</a>
+				</div>
+				<div class="navbar-end hidden md:contents">
+					<a href="#home" target="" class="navbar-item">Home</a>
+					<a href="#about" class="navbar-item">About</a>
+					<a href="#portofolio" class="navbar-item">Project</a>
+					<a href="#contact" class="navbar-item">Contact</a>
+				</div>
+			</div>
+
+			<!-- Hero Section -->
+			<section id="home" class="p-0">
+				<div class="flex flex-wrap bg-primary mt-14">
+					<div class="w-full self-center p-8 md:px-16 lg:w-3/5">
+						<h1 class="text-xl font-bold text-white md:text-2xl lg:text-3xl">
+							Hallo semua, Saya
+							<span
+								class="block text-3xl font-black text-secondary mt-3 md:text-4xl lg:text-5xl"
+							>
+								Muhammad Aris Mawardi
+							</span>
+						</h1>
+						<h3
+							class="font-semibold text-slate-100 mt-3 mb-5 md:mb-9 md:text-xl"
+						>
+							Ini adalah Web Portofolio Saya
+						</h3>
+						<a
+							href="#portofolio"
+							class="text-base font-semibold text-white py-2 px-8 bg-secondary rounded-full hover:shadow-lg hover:opacity-85 transition duration-300 ease-in-out"
+						>
+							More
+						</a>
+					</div>
+					<div
+						class="w-full self-end m-0 px-3 py-3 lg:w-2/5 lg:bg-[#fff] lg:rounded-ss-[50%] lg:py-8"
+					>
+						<div class="relative lg:right-0">
+							<img
+								src="public/image/me.png"
+								alt="Muhammad Aris M"
+								class="profile max-w-full mx-auto rounded-full shadow-inner bg-tertiary"
+							/>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- About Section -->
+			<section id="about" class="p-0 bg-[#fff]">
+				<div class="flex flex-wrap">
+					<div class="w-full p-0 lg:w-3/5">
+						<div
+							class="container bg-none px-16 py-9 min-h-80 lg:bg-primary rounded-br-[10rem]"
+						>
+							<h1 class="font-semibold text-2xl text-tertiary lg:text-3xl">
+								Tentang saya
+							</h1>
+							<p class="font-medium text-base lg:text-white mt-5">
+								Saya merupakan lulusan SMK jurusan Rekayasa Perangkat Lunak
+								(RPL) pada tahun 2023. Saya memiliki minat untuk belajar maupun
+								bekerja dibidang Teknologi dan Komunikasi. Saya memiliki
+								beberapa kemampuan pada bidang tersebut, seperti pemrograman dan
+								design. Saya memiliki beberapa pengalaman mulai dari organisasi
+								saat bersekolah dan juga pengalaman bekerja. Saya juga senang
+								mempelajari hal-hal baru yang membuat saya untuk terus
+								berkembang.
+							</p>
+						</div>
+					</div>
+					<div class="w-full p-0 lg:w-2/5">
+						<div class="card bg-white mx-auto my-5 shadow-2xl border">
+							<div class="card-body">
+								<h2 class="card-header text-2xl text-tertiary lg:text-3xl">
+									Pendidikan
+								</h2>
+								<div class="card-footer mt-3 block">
+									<p class="text-content2">2020-2023</p>
+									<h2 class="card-header">SMKN 1 GUNUNGPUTRI</h2>
+									<p class="text-content2">Teknik Rekayasa Perangkat Lunak</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Portofolio Section -->
+			<section id="portofolio" class="py-16 bg-slate-100">
+				<div class="container flex flex-wrap">
+					<div class="w-full text-center">
+						<h2 class="text-xl font-bold text-primary md:text-2xl lg:text-3xl">
+							Portofolio
+						</h2>
+						<h3 class="font-semibold text-dark mt-3 mb-5 md:mb-9 md:text-xl">
+							Ini adalah beberapa Proyek & Sertifikat saya
+						</h3>
+					</div>
+
+					<!-- Proyek -->
+					<section id="projects" class="w-full p-6 lg:w-1/2">
+						<div class="max-w-6xl mx-auto px-3">
+							<h3 class="text-lg font-semibold mb-10 text-center text-tertiary">
+								Project
+							</h3>
+							<div
+								id="github-projects"
+								class="grid grid-cols-1 md:grid-cols-2 gap-6"
+							></div>
+						</div>
+					</section>
+
+					<!-- Sertif -->
+					<section id="certificates" class="w-full p-6 lg:w-1/2">
+						<div class="max-w-6xl">
+							<h3 class="text-lg font-semibold mb-10 text-center text-tertiary">
+								Sertifikat
+							</h3>
+							<!-- Carousel container -->
+							<div class="swiper mySwiper">
+								<div class="swiper-wrapper mb-10" id="carouselContainer">
+									<!-- Slide akan ditambahkan oleh JS -->
+								</div>
+								<!-- Navigasi -->
+								<div class="swiper-pagination"></div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</section>
+
+			<!-- Contact Section-->
+			<section id="contact" class="pt-10">
+				<div class="container">
+					<div class="flex flex-wrap">
+						<div class="w-full text-center">
+							<h2
+								class="text-xl font-bold text-primary mt-3 md:text-2xl lg:text-3xl"
+							>
+								Kontak
+							</h2>
+							<h3 class="font-semibold text-dark mt-3 mb-5 md:mb-9 md:text-xl">
+								Sosial Media Saya
+							</h3>
+						</div>
+						<div class="w-full self-center lg:w-1/2">
+							<div class="p-8 lg:px-10">
+								<!-- GitHub Card (Dynamic) -->
+								<div
+									id="github-card"
+									class="sosial bg-white border rounded-2xl shadow p-4 mb-4 flex items-center gap-4 hover:scale-105"
+								>
+									<span>Memuat profil GitHub...</span>
+								</div>
+								<!-- Instagram -->
+								<div
+									class="sosial bg-white border rounded-2xl shadow p-4 mb-4 flex items-center gap-4 hover:scale-105"
+								>
+									<img
+										src="public/image/igp.jpg"
+										alt="Instagram"
+										class="w-12 h-12 rounded-full"
+									/>
+									<div>
+										<a
+											href="https://instagram.com/arsmwrd"
+											target="_blank"
+											class="text-primary font-medium"
+										>
+											@arsmwrd
+										</a>
+										<p class="text-sm text-tertiary">Instagram</p>
+									</div>
+								</div>
+								<!-- Twitter / X -->
+								<div
+									class="sosial bg-white border rounded-2xl shadow p-4 mb-4 flex items-center gap-4 hover:scale-105"
+								>
+									<img
+										src="public/image/xp.jpg"
+										alt="Twitter/X"
+										class="w-12 h-12 rounded-full"
+									/>
+									<div>
+										<a
+											href="https://x.com/Nafas_SejakDulu"
+											target="_blank"
+											class="text-primary font-medium"
+										>
+											@Nafas_SejakDulu
+										</a>
+										<p class="text-sm text-tertiary">Twitter / X</p>
+									</div>
+								</div>
+								<!-- LinkedIn -->
+								<div
+									class="sosial bg-white border rounded-2xl shadow p-4 flex items-center gap-4 hover:scale-105"
+								>
+									<img
+										src="public/image/ldp.jpg"
+										alt="LinkedIn"
+										class="w-12 h-12 rounded-full"
+									/>
+									<div>
+										<a
+											href="https://www.linkedin.com/in/muhammad-aris-mawardi"
+											target="_blank"
+											class="text-primary font-medium"
+										>
+											Muhammad Aris Mawardi
+										</a>
+										<p class="text-sm text-tertiary">LinkedIn</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Email Chat -->
+						<div class="w-full lg:w-1/2">
+							<div class="p-8 lg:px-12">
+								<form
+									action="mailto:arismawardi41@gmail.com"
+									method="get"
+									class="space-y-4"
+								>
+									<div class="w-full">
+										<label class="sr-only" for="name">Name</label>
+										<input
+											class="input input-solid max-w-full"
+											placeholder="Nama"
+											type="text"
+											id="name"
+										/>
+									</div>
+
+									<div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+										<div class="w-full">
+											<label class="sr-only" for="email">Email</label>
+											<input
+												class="input input-solid"
+												name="Subject"
+												placeholder="Alamat Email"
+												type="email"
+												id="email"
+											/>
+										</div>
+
+										<div class="w-full">
+											<label class="sr-only" for="phone">Phone</label>
+											<input
+												class="input input-solid"
+												placeholder="No. Telepon"
+												type="tel"
+												id="phone"
+											/>
+										</div>
+									</div>
+
+									<div class="w-full">
+										<label class="sr-only" for="message">Message</label>
+										<textarea
+											class="textarea textarea-solid max-w-full resize-none"
+											name="body"
+											placeholder="Pesan"
+											rows="8"
+											id="message"
+										></textarea>
+									</div>
+
+									<div class="mt-4">
+										<input
+											type="submit"
+											class="rounded-lg btn bg-secondary btn-block text-white hover:shadow-lg hover:opacity-85 transition duration-300 ease-in-out"
+										/>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Footer Section-->
+			<section id="#footer" class="border-t shadow-sm">
+				<footer class="text-center text-sm text-gray-400 py-6">
+					&copy; 2025 Muhammad Aris Mawardi.
+				</footer>
+			</section>
+		</div>
+
+		<!-- Modal Sertifikat -->
+		<div
+			id="certificateModal"
+			class="fixed inset-0 bg-black bg-opacity-80 hidden z-50 p-3"
+		>
+			<div class="flex justify-center mt-12">
+				<img
+					id="modalImage"
+					class="max-w-4xl max-h-64 lg:max-h-[90vh] rounded shadow-lg"
+				/>
+			</div>
+		</div>
+
+		<!-- Javascript -->
+		<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+		<script src="public/Js/certificates.js"></script>
+		<script src="public/Js/githubcon.js"></script>
+	</body>
+</html>

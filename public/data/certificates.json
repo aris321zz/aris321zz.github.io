@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Kompetensi Pemrograman",
+    "issuer": "BNSP",
+    "date": "May 2023 - 2026",
+    "image": "public/image/certificates/certkom.jpg"
+  },
+  {
+    "title": "HTML & CSS",
+    "issuer": "Certiport",
+    "date": "May 2023",
+    "image": "public/image/certificates/certiport.jpg"
+  },
+  {
+    "title": "Problem Solving",
+    "issuer": "EQA IMS",
+    "date": "May 2024",
+    "image": "public/image/certificates/arispblmsolve.png"
+  },
+  {
+    "title": "Pembuatan & Pengisian IADL",
+    "issuer": "EQA IMS",
+    "date": "May 2024",
+    "image": "public/image/certificates/arisiadl.png"
+  }, 
+  {
+    "title": "Implementation of 5R ",
+    "issuer": "EQA IMS",
+    "date": "March 2024",
+    "image": "public/image/certificates/aris5r.png"
+  }
+]

@@ -1,0 +1,11 @@
+# Node modules
+node_modules/
+
+# Build cache / OS files
+.DS_Store
+.vscode/
+dist/
+build/
+
+# Dependency lock file (opsional)
+package-lock.json
